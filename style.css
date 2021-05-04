@@ -10,3 +10,47 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+
+.intro-chunk {
+  max-width: 300px;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main {
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: hsla(0, 0%, 40%);
+  background-color: hsl(0, 0%, 60%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main .max-width-wrapper  {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: hsla(0, 0%, 40%);
+}
+
+strong {
+  color:hsl(174, 40%, 56%);
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
