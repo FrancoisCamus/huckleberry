@@ -7,10 +7,12 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(0deg, 0%, 60%);
 }
 
 /* Add styles here! */
+html {
+  background-color: hsl(0deg, 0%, 60%);
+}
 
 .max-width-wrapper {
   max-width: 580px;
